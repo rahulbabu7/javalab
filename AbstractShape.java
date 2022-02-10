@@ -1,9 +1,4 @@
-/***********************************************************************************
- * Author: RAHUL BABU
- * Program:  java program to create an abstract class named Shape that contains an empty method named numberOfSides.
- * Date:16th December 2021
- * version:1.0
- **************************************************************************************/
+
 package lab21;
 abstract class Shape
 {
