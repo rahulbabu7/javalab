@@ -79,8 +79,8 @@ class bankAcc
 					System.out.print("Enter the amount you want to withdraw: ");
 					take = sc.nextInt();
 					
-					if (take <= 0) {
-						throw new InvalidAmountException ("Invalid amount; amount<=0");
+					if (take <= 1000) {
+						throw new InvalidAmountException ("Invalid amount; amount<=1000");
 					}
 					else if (take >= num[i].bal) {
 						throw new InsufficientFundsException ("Your balance is less than "+num[i].bal+"\n	Transaction failed...!!");
